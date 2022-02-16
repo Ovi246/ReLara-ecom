@@ -136,10 +136,10 @@ const AddProduct = () => {
       </div>
       <div className="card-body">
         <form encType="multipart/form-data">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
+          <ul className="nav nav-tabs" id="myTab" role="tablist">
+            <li className="nav-item" role="presentation">
               <a
-                class="nav-link active"
+                className="nav-link active"
                 id="home-tab"
                 data-toggle="tab"
                 href="#home"
@@ -150,9 +150,9 @@ const AddProduct = () => {
                 Home
               </a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li className="nav-item" role="presentation">
               <a
-                class="nav-link"
+                className="nav-link"
                 id="seo-tags-tab"
                 data-toggle="tab"
                 href="#seo-tags"
@@ -163,9 +163,9 @@ const AddProduct = () => {
                 Seo-Tags
               </a>
             </li>
-            <li class="nav-item" role="presentation">
+            <li className="nav-item" role="presentation">
               <a
-                class="nav-link"
+                className="nav-link"
                 id="other-details-tab"
                 data-toggle="tab"
                 href="#other-details"
@@ -177,9 +177,9 @@ const AddProduct = () => {
               </a>
             </li>
           </ul>
-          <div class="tab-content" id="myTabContent">
+          <div className="tab-content" id="myTabContent">
             <div
-              class="tab-pane fade show active"
+              className="tab-pane fade show active"
               id="home"
               role="tabpanel"
               aria-labelledby="home-tab"
@@ -235,7 +235,7 @@ const AddProduct = () => {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              className="tab-pane fade"
               id="seo-tags"
               role="tabpanel"
               aria-labelledby="seo-tags-tab"
@@ -272,7 +272,7 @@ const AddProduct = () => {
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              className="tab-pane fade"
               id="other-details"
               role="tabpanel"
               aria-labelledby="other-details-tab"
@@ -329,12 +329,12 @@ const AddProduct = () => {
                 </div>
               </div>
 
-              <fieldset class="form-group row">
-                <legend class="col-form-label col-sm-2 float-sm-left pt-0">
+              <fieldset className="form-group row">
+                <legend className="col-form-label col-sm-2 float-sm-left pt-0">
                   Options
                 </legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
+                <div className="col-sm-10">
+                  <div className="form-check">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -342,11 +342,11 @@ const AddProduct = () => {
                       onChange={handleInput}
                       value={status}
                     />{" "}
-                    <label class="form-check-label">
+                    <label className="form-check-label">
                       Status (Check if u wanna List Item!)
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -354,11 +354,11 @@ const AddProduct = () => {
                       onChange={handleInput}
                       value={featured}
                     />{" "}
-                    <label class="form-check-label">
+                    <label className="form-check-label">
                       Featured (Check if u wanna Pin Item!)
                     </label>
                   </div>
-                  <div class="form-check disabled">
+                  <div className="form-check disabled">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -366,7 +366,7 @@ const AddProduct = () => {
                       onChange={handleInput}
                       value={popular}
                     />{" "}
-                    <label class="form-check-label">
+                    <label className="form-check-label">
                       Popular (Check if u add Item to Popular List!)
                     </label>
                   </div>
